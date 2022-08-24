@@ -1,5 +1,5 @@
-#root {
-  max-width: 1280px;
+/* #root {
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -38,4 +38,74 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+.navbarButtondiv{
+  border:"1px solid black";
+   width:"fit-content"
 }
+.navJobSearch:hover{
+  color: rgb(93,77,170);
+  font-size: 14px
+}
+.navJobSearch{
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  padding: 8px 0px; 
+  width: max-content;
+  height: 100%;
+}
+#navwfh{
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  padding: 8px 0px; 
+  width: max-content;
+  height: 100%;
+}
+#navwfh:hover{
+  color: rgb(93,77,170);
+  font-size: 14px
+}
+#navPS{
+  background-color:rgb(253,233,189);
+  color: rgb(247,130,42);
+  /* font-size: 12px; */
+  border-radius: 5px;
+  width: max-content;
+  height: 100%;
+  padding: 8px 0px;
+  font-size: 14px;
+}
+#navPS:hover{
+  color: rgb(93,77,170);
+  font-size: 14px;
+}
+#navCT{
+  
+  color: black;
+  /* font-size: 12px; */
+  border-radius: 5px;
+  width: max-content;
+  height: 100%;
+  padding: 8px 0px;
+  font-size: 14px;
+}
+#navCT:hover{
+  color: rgb(93,77,170);
+  font-size: 14px;
+}
+
+.login1{
+  color: black;
+  font-size: 14px;
+  border: 1px solid black;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.login1:hover{
+  background-color: rgb(246,136,25);
+  color: white;
+}
+
