@@ -42,7 +42,8 @@
 
 .navbarButtondiv{
   border:"1px solid black";
-   width:"fit-content"
+   width:"fit-content";
+   position: relative;
 }
 .navJobSearch:hover{
   color: rgb(93,77,170);
@@ -55,6 +56,7 @@
   padding: 8px 0px; 
   width: max-content;
   height: 100%;
+  
 }
 #navwfh{
   background-color: white;
@@ -107,5 +109,57 @@
 .login1:hover{
   background-color: rgb(246,136,25);
   color: white;
+}
+/* ---------------------------------------------------------------------menu of each tab */
+.jobsearchMenu{
+  display: none;
+  width: max-content;
+  border: 1px solid black;
+  z-index: 1000;
+  position: absolute;
+  text-align: 20px;
+  
+}
+.menuItems{
+  color: rgb(126, 120, 120);
+  font-size: 15px;
+  
+}
+.navbarButtondiv:hover .jobsearchMenu{
+  display: block;
+  
+}
+.menuItems:hover{
+  background-color: rgb(211, 206, 206);
+  color: rgb(182, 105, 233);
+}
+#employerDiv:hover .jobsearchMenu{
+  display: block;
+}
+/* -------------------------------------------------------------Employer Div */
+body{
+  background-color: rgb(245,245,245);
+}
+.EmployerDiv1{
+  width: 100%;
+  background-color: rgb(245,245,245);
+  margin-top: 10px;
+}
+.EmployerDiv2{
+  width: 86%;
+  margin: auto;
+  background-color: rgb(255,255,255);
+  height: 150px;
+  border: 1px solid rgb(237,237,237);
+  padding: 20px 0px 20px 0px;
+ 
+}
+.EmployerTitleDiv{
+  border: 1px solid black;
+  margin-left: 20px;
+}
+.EmployerTitleHtag{
+  font-size: 22px;
+  font-weight: 600;
 }
 
