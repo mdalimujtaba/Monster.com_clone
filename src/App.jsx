@@ -10,7 +10,7 @@ function App() {
 
   return (
    <ChakraProvider>
-     <div className="App">
+     <div className="App" style={{backgroundColor:"rgb(245,245,245)"}}>
       <Home/>
     
     </div>

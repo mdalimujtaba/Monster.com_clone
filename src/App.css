@@ -137,9 +137,7 @@
   display: block;
 }
 /* -------------------------------------------------------------Employer Div */
-body{
-  background-color: rgb(245,245,245);
-}
+
 .EmployerDiv1{
   width: 100%;
   background-color: rgb(245,245,245);
@@ -162,4 +160,5 @@ body{
   font-size: 22px;
   font-weight: 600;
 }
+
 

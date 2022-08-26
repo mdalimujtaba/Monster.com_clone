@@ -20,7 +20,7 @@ const settings = {
   autoplay: true,
   speed: 500,
   autoplaySpeed: 2000,
-  slidesToShow: 6,
+  slidesToShow: 5,
   slidesToScroll: 1,
 };
 
@@ -103,6 +103,8 @@ export default function CaptionCarousel() {
       {/* Left Icon */}
       <IconButton
         aria-label="left-arrow"
+        borderRadius="50%"
+        bgColor="white"
         variant="ghost"
         position="absolute"
         left={side}
@@ -114,6 +116,8 @@ export default function CaptionCarousel() {
       </IconButton>
       {/* Right Icon */}
       <IconButton
+        borderRadius="50%"
+        bgColor="white"
         aria-label="right-arrow"
         variant="ghost"
         position="absolute"
@@ -131,7 +135,7 @@ export default function CaptionCarousel() {
             key={index}
             marginTop='1rem'
            >
-            <Box width="70%" margin="auto" >
+            <Box width="60%" margin="auto" >
                 <Link href={card.link}>
                     <Image margin="auto" src={card.image} />
                 </Link>
