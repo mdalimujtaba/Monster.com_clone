@@ -1,12 +1,13 @@
 import { Box, Center, Flex, Image,Stack,Button, border } from "@chakra-ui/react";
 function Navbar() {
   return (
-    <div>
+    <div >
       <Center
         border="1px solid black"
         width="100%"
         height="75px"
         p={4}
+        bg='rgb(255,255,255)'
         
       >
         <Flex color="white" border="1px solid yellow" width="90%" height="100%">

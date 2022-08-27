@@ -5,9 +5,10 @@ import TwoColumn from "./HomeComponents/TwoColumn";
 function Home(){
     return(
         <>
-        <Navbar/>
+        <Navbar  />
         <EmployerChoice/>
         <TwoColumn/>
+        
         </>
     )
 }
