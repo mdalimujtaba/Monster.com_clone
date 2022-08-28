@@ -3,15 +3,15 @@ function Navbar() {
   return (
     <div >
       <Center
-        border="1px solid black"
+        // border="1px solid black"
         width="100%"
         height="75px"
         p={4}
         bg='rgb(255,255,255)'
         
       >
-        <Flex color="white" border="1px solid yellow" width="90%" height="100%">
-          <Center border="1px solid blue" height="100%" width="68%">
+        <Flex color="white"  width="90%" height="100%">
+          <Center height="100%" width="68%" >
             
             <Stack direction="row" spacing={4} align="center">
             <Center  >
@@ -22,10 +22,10 @@ function Navbar() {
               />
             </Center>
             <div className="navbarButtondiv"  >
-              <button id="navJobSearch" className="navJobSearch" border="1px solid black"  >
+              <button id="navJobSearch" className="navJobSearch"   >
                 JOB SEARCH
               </button>
-              <div className="jobsearchMenu">
+              <div className="jobsearchMenu" >
                 <div className="menuItems" >JOBS BY LOCATION</div>
                 <div className="menuItems">JOBS BY SKILLS</div>
                 <div className="menuItems">JOBS BY TITLE</div>
@@ -99,7 +99,7 @@ function Navbar() {
               </div>
             </Stack>
           </Center>
-          <Center border="1px solid red" height="100%" width="40%">
+          <Center  height="100%" width="40%">
            <Stack direction="row" spacing={2} align="center">
            <button id="login" className="login1">JOBSEEKER LOGIN</button>
            <div id="employerDiv">
