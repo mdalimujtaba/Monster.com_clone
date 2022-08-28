@@ -164,7 +164,6 @@ export default function WFHJobslider() {
              <Box
              key={item.id}
              marginTop='1rem'
-             
             >
              <Link _hover='textDecoration=none' href='https://www.monsterindia.com/job/ui-react-js-developer-the-reycruit-hyderabad-secunderabad-telangana-7051476'>
              <Box width="90%" margin="auto" border="1px solid rgb(237,237,237)" bg="rgb(247,247,247)" height="150px">
@@ -178,7 +177,6 @@ export default function WFHJobslider() {
         ))}
       </Slider>
     </Box>
-      
     </Box>
   );
 }

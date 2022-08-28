@@ -1,5 +1,7 @@
 import { Box, Flex, SimpleGrid } from "@chakra-ui/react";
+import FirstColumnAdd from "../firstcolumn/add1";
 import AskHere from "../firstcolumn/AskHere";
+import CareerAdvice from "../firstcolumn/CareerAdvice";
 import PremiumServices from "../firstcolumn/PremiumServices";
 import RecentJobs from "../firstcolumn/RecentJobs";
 
@@ -14,11 +16,13 @@ function TwoColumn(){
     return (
        <Box width='86%' margin='auto' >
          <Flex  gap='15px' >
-            <Box border="1px solid black " height="auto" width='72%' marginTop='1%'>
+            <Box  height="auto" width='72%' marginTop='1%'>
                 <AskHere/>
                 <WFHJobslider/>
                 <RecentJobs/>
                 <PremiumServices/>
+                <FirstColumnAdd/>
+                <CareerAdvice/>
             </Box>
             <Box  height='auto' width='27%' marginTop='1%'>
                 <SpaceForAdd1/>

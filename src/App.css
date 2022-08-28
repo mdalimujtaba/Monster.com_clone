@@ -41,7 +41,7 @@
 } */
 
 .navbarButtondiv{
-  border:"1px solid black";
+  /* border:"1px solid black"; */
    width:"fit-content";
    position: relative;
 }
@@ -77,7 +77,7 @@
   border-radius: 5px;
   width: max-content;
   height: 100%;
-  padding: 8px 0px;
+  padding: 8px 8px;
   font-size: 14px;
 }
 #navPS:hover{
@@ -114,11 +114,15 @@
 .jobsearchMenu{
   display: none;
   width: max-content;
-  border: 1px solid black;
+  border: 1px solid rgb(233, 232, 232);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   z-index: 1000;
   position: absolute;
   text-align: 20px;
-  
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+  background-color:rgb(255,255,255);
+  padding: 15px ;
 }
 .menuItems{
   color: rgb(126, 120, 120);
@@ -154,7 +158,7 @@
  
 }
 .EmployerTitleDiv{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-left: 20px;
 }
 .EmployerTitleHtag{
